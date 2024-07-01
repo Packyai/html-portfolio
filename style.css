@@ -1,11 +1,11 @@
-h1 {
+#name {
     color: antiquewhite;
     font-family: "Roboto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-variation-settings: "wdth" 100, "GRAD" 0;
-    padding: 25px;
+    padding: 0px;
     width: 100%;
 }
 
