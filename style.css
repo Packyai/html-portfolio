@@ -1,0 +1,78 @@
+h1 {
+    color: brown;
+    background: rgb(131, 180, 255);
+    padding: 25px;
+    border: 5px solid black;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px;
+    color: antiquewhite;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+}
+
+body {
+    background: rgb(105,132,116);
+    font-size: 12;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(131,180,255);
+}
+
+p {
+    text-align: justify;
+    margin: 30px;
+    color: antiquewhite;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+    font-size: 1rem;
+}
+
+#click {
+    text-align: center;
+}
+
+menu {
+    list-style-type: none;
+    display: -webkit-inline-box;
+    gap: .5rem;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+}
+
+button {
+    font-size: 1.1rem;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
+    background-color: rgb(105,132,116);
+    color: aliceblue;   
+    animation: forwards;
+}
+
+#name {
+    padding: 0px;
+    margin: 20px;
+}
+
+#copyright {
+    text-align: justify;
+    color: black;
+    font-size: .6rem;
+}
