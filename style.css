@@ -1,9 +1,16 @@
 h1 {
-    color: brown;
-    background: rgb(131, 180, 255);
+    color: antiquewhite;
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100, "GRAD" 0;
     padding: 25px;
-    border: 5px solid black;
     width: 100%;
+}
+
+hr {
+    margin: 30px;
 }
 
 h2 {
@@ -18,10 +25,9 @@ h2 {
 }
 
 body {
-    background: rgb(105,132,116);
+    background: rgb(46, 90, 64);
     font-size: 12;
     font-weight: bold;
-    text-align: center;
     color: rgb(131,180,255);
 }
 
@@ -46,7 +52,7 @@ menu {
     display: -webkit-inline-box;
     gap: .5rem;
     padding: 0;
-    margin: 0;
+    margin-left: 30px;
     font-family: "Roboto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 200;
@@ -64,15 +70,40 @@ button {
     background-color: rgb(105,132,116);
     color: aliceblue;   
     animation: forwards;
+    
 }
 
 #name {
-    padding: 0px;
-    margin: 20px;
+    width: 100%;
+    margin-left: 30px;
 }
 
 #copyright {
     text-align: justify;
     color: black;
-    font-size: .6rem;
+    font-size: .8rem;
+    padding: 0;
+    margin: 30px;
+}
+
+#profile {
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.image {
+    width: 300px;
+    margin-top: 50px;
+}
+
+.intro {
+    flex-grow: 1;
+}
+
+#summary {
+    margin-top: 50px;
 }
